@@ -1,0 +1,39 @@
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+*.spec
+
+# Backups / scratch
+*.bak
+*.bak*
+*.orig
+*~
+
+# Secrets & local config
+.env
+.env.*
+*secret*
+*.key
+credentials.json
+
+# Playwright persistent login profile (contains session cookies!)
+profile/
+user-data/
+playwright-profile/
+
+# Generated reports & test data
+output/
+reports/
+*.docx
+~$*
+
+# macOS
+.DS_Store
